@@ -1,0 +1,48 @@
+.banner-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.banner-section h3 {
+    color: #F86F03;
+}
+
+.banner-section h1 {
+    color: #ffff;
+}
+
+.banner-section h2 {
+    color: #ffff;
+}
+
+.banner-section h2 .orange{
+    color: #F86F03;
+}
+
+.banner-section p {
+    font-size: 20px;
+    color: #ffff;
+}
+.banner-section .menu-social-media{
+    list-style: none;
+    font-size: 18px;
+}
+
+.banner-section .menu-social-media > li {
+    display: inline-block;
+    margin-right: 15px; 
+}
+
+.banner-section .menu-social-media > li > a {
+    text-decoration: none;
+}
+
+.banner-section .menu-social-media > li > a:hover{
+    cursor: pointer;
+}
+
+.banner-section .menu-social-media > li > a > img {
+    width: 25px;
+    height: 25px;
+}
