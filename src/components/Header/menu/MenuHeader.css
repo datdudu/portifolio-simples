@@ -1,0 +1,19 @@
+.menu-header{
+    list-style: none;
+    font-size: 18px;
+}
+
+.menu-header > li {
+    display: inline-block;
+    margin-right: 15px; 
+}
+
+.menu-header > li > a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.menu-header > li > a:hover{
+    color: #f86f03;
+    cursor: pointer;
+}
