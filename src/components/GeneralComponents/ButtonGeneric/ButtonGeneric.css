@@ -18,8 +18,10 @@
 
 .background-orange{
     background-color: #f86f03;
+    color: white;
 }
 
 .background-orange:hover{
     background-color: #ffff;
+    color: #461959;
 }
