@@ -1,0 +1,25 @@
+.button-generic{
+    color: #461959;
+    width: 140px;
+    height: 40px;
+    padding: 9px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.background-white{
+    background-color: #ffff;
+}
+
+.background-white:hover{
+    background-color: #f86f03;
+}
+
+.background-orange{
+    background-color: #f86f03;
+}
+
+.background-orange:hover{
+    background-color: #ffff;
+}
