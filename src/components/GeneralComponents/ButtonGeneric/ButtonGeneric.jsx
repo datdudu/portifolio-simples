@@ -1,4 +1,4 @@
-import './button_generic.css'
+import './ButtonGeneric.css'
 
 
 function ButtonGeneric({extra_style, label}){
