@@ -1,9 +1,10 @@
 import '../menu/MenuHeader.css'
+import { Link } from 'react-router-dom'
 function MenuHeader(){
     return (
         <>
             <ul className="menu-header">
-                <li><a href="#">Home</a></li>
+                <li><Link to='/banner'><a href="#">Home</a></Link></li>
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Skills</a></li>

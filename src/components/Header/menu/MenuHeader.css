@@ -8,12 +8,12 @@
     margin-right: 15px; 
 }
 
-.menu-header > li > a {
+.menu-header > li  a {
     text-decoration: none;
     color: #ffff;
 }
 
-.menu-header > li > a:hover{
+.menu-header > li a:hover{
     color: #f86f03;
     cursor: pointer;
 }
