@@ -1,0 +1,6 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    background-color: #170550;
+    padding: 66px;
+}
