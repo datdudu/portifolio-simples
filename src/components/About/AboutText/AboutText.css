@@ -1,0 +1,17 @@
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    width: 650px;
+    height: 400px;
+}
+
+.about-text .about-text-title {
+    font-size: 30px;
+}
+
+.about-text p {
+    margin-bottom: 39px;
+}
+
