@@ -1,4 +1,6 @@
 .banner-section {
+    width: 575px;
+    height: 355px;
     display: flex;
     flex-direction: column;
     gap: 15px;

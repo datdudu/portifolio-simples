@@ -1,8 +1,12 @@
-h2 {
-    font-size: 25px;
-    border-bottom: 1px solid #ffff;
+.about-title{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 100px;
 }
 
-.orange{
+.about-title .orange{
+    margin-left: 5px;
     color: #F86F03;
 }

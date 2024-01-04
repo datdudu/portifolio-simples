@@ -1,5 +1,5 @@
 import DevImage from '../../../assets/dev_photo.jpeg'
-
+import './AboutImage.css'
 
 function AboutImage(){
     return(
