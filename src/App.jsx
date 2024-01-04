@@ -1,13 +1,13 @@
 import './App.css'
-import Banner from './views/Banner'
 import Header from './views/Header.jsx'
 import About from './views/About.jsx'
+import { Outlet } from 'react-router-dom'
 function App() {
 
   return (
     <>
       <Header />
-      <Banner />
+      <Outlet />
       <About />
     </>
   )
