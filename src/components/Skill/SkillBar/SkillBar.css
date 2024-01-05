@@ -1,0 +1,29 @@
+.skill-bar{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.skill-bar p {
+    width: 200px;
+}
+.skill-bar .skill-bar-layer {
+    width: 850px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #43366A;
+}
+
+.skill-bar .skill-bar-layer .skill-bar-fill {
+    height: 90%;
+    border-radius: 20px;
+    background-color: orange;
+}
+
