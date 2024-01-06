@@ -4,7 +4,7 @@ function FooterText()
 {
     return (
         <>
-            <p>Copywrite & COpy: 2023 | All Right Reserved by RIEAD</p>
+            <p className='footer-text'>Copywrite & COpy: 2023 | All Right Reserved by RIEAD</p>
         </>
     )
 }
