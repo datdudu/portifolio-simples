@@ -1,10 +1,9 @@
 import './FooterText.css'
 
-function FooterText()
-{
+function FooterText(){
     return (
         <>
-            <p className='footer-text'>Copywrite & COpy: 2023 | All Right Reserved by RIEAD</p>
+            <p className='footer-text'>Copywrite & Copy: 2023 | All Right Reserved by RIEAD</p>
         </>
     )
 }
