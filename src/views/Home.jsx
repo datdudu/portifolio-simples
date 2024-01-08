@@ -1,19 +1,20 @@
-import Banner from './Banner'
-import About from './About.jsx'
-import Service from './Service.jsx'
-import Skill from './Skill.jsx'
-import Portfolio from './Portfolio.jsx'
-import { Outlet } from 'react-router-dom'
+import AboutHome from '../components/Home/AboutHome/AboutHome.jsx'
+import BannerHome from '../components/Home/BannerHome/BannerHome.jsx'
+import PortfolioHome from '../components/Home/PortfolioHome/PortfolioHome.jsx'
+import ServiceHome from '../components/Home/ServiceHome/ServiceHome.jsx'
+import SkillHome from '../components/Home/SkillHome/SkillHome.jsx'
+
+// import { Outlet } from 'react-router-dom'
 
 function Home()
 {
     return(
         <>
-            <Banner />
-            <About />
-            <Service />
-            <Skill />
-            <Portfolio />
+            <BannerHome />
+            <AboutHome />
+            <ServiceHome />
+            <SkillHome />
+            <PortfolioHome />
         </>
     )
 }
