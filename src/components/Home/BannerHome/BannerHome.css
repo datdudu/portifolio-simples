@@ -1,0 +1,8 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 150px; 
+    background-color: #31065A;
+    gap: 20px;
+} 
