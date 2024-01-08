@@ -4,4 +4,5 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Exo 2";
+    scroll-behavior: smooth;
 }

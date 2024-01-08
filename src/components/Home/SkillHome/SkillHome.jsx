@@ -1,11 +1,11 @@
-import '../components/Skill/Skill.css'
-import SkillTitle from '../components/Skill/SkillTitle/SkillTitle'
-import SkillBar from '../components/Skill/SkillBar/SkillBar'
+import './SkillHome.css'
+import SkillTitle from '../../Skill/SkillTitle/SkillTitle'
+import SkillBar from '../../Skill/SkillBar/SkillBar'
 
-function Skill(){
+function SkillHome(){
     return(
         <>
-            <div className='skill'>
+            <div id='SkillSection' className='skill'>
                 <SkillTitle />
 
                 <div className='skill-set'>
@@ -21,4 +21,4 @@ function Skill(){
     )
 }
 
-export default Skill
+export default SkillHome
