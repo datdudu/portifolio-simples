@@ -9,7 +9,7 @@ function MenuHeader(){
                 <li><a id='link' href="#ServiceSection">Services</a></li>
                 <li><a id='link' href="#SkillSection">Skills</a></li>
                 <li><a id='link' href="#PortfolioSection">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a id='link' href="#ContactSection">Contact</a></li>
             </ul>
         </>
     )
