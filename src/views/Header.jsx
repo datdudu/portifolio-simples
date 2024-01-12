@@ -8,7 +8,7 @@ function Header(){
             <div className='header'>
                 <LogoRied />
                 <MenuHeader />
-                <ButtonGeneric extra_style="background-white" label="Hire me"/>
+                <ButtonGeneric extra_style="background-white" label="Hire me" link={'./Contact'}/>
             </div>            
         </>
     )

@@ -1,7 +1,7 @@
 import './About.css'
 import AboutTitle from '../../components/About/AboutTitle/AboutTitle'
 import AboutImage from '../../components/About/AboutImage/AboutImage'
-import AboutText from '../../components/About/AboutTitle/AboutTitle'
+import AboutText from '../../components/About/AboutText/AboutText'
 
 function About(){
     return (

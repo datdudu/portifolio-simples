@@ -1,7 +1,8 @@
 .about-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
     color: white;
     width: 650px;
     height: 400px;
