@@ -3,6 +3,33 @@ import SkillTitle from '../../components/Skill/SkillTitle/SkillTitle'
 import SkillBar from '../../components/Skill/SkillBar/SkillBar'
 import HeaderRouter from '../HeaderRouter'
 
+const skillBarInfo = [
+    {
+        name: 'HTML - 5',
+        percentage: '80'
+    },
+    {
+        name: 'CSS - 3',
+        percentage: '75'
+    },
+    {
+        name: 'Bootstrap',
+        percentage: '60'
+    },
+    {
+        name: 'Javascript',
+        percentage: '50'
+    },
+    {
+        name: 'Adobe Photoshop',
+        percentage: '75'
+    },
+    {
+        name: 'Adobe Illustartor',
+        percentage: '60'
+    },
+]
+
 function Skill(){
     return(
         <>
@@ -11,12 +38,13 @@ function Skill(){
                 <SkillTitle />
 
                 <div className='skill-set'>
-                    <SkillBar skill={"HTML - 5"} percentage={80} />
-                    <SkillBar skill={"CSS - 3"} percentage={75} />
-                    <SkillBar skill={"Bootstrap"} percentage={60} />
-                    <SkillBar skill={"JavaScript"} percentage={50} />
-                    <SkillBar skill={"Adobe Photoshop"} percentage={75} />
-                    <SkillBar skill={"Adobe Illustrator"} percentage={60} />
+                    {
+                        skillBarInfo.map((item) => {
+                            return (
+                                <SkillBar key={item.name} skill={item.name} percentage={item.percentage} />            
+                            )
+                        })
+                    }
                 </div>
             </div>
         </>
