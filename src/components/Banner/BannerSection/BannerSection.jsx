@@ -19,7 +19,7 @@ dolorum ullam molestias autem deleniti iure earum!</p>
                     <li><a href="#"><img src={GitHubIcon} alt="" /></a></li>
                     <li><a href="#"><img src={InstagramIcon} alt="" /></a></li>
                 </ul>
-                <ButtonGeneric extra_style="background-orange" label="Curriculum" />
+                <ButtonGeneric extra_style="background-orange" label="Curriculum" link={'./Portfolio'}/>
             </div>
             
         </>

@@ -12,7 +12,7 @@ function AboutText()
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptate perferendis fugit iure quo maiores distinctio aliquid ea.</p>
                 </div>
 
-                <ButtonGeneric extra_style="background-white" label="Read More..."/>
+                <ButtonGeneric extra_style="background-white" label="Read More..." link={'./About'}/>
             </div>
         </>
     )

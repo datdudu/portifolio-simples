@@ -1,10 +1,11 @@
-import '../menu/MenuHeader.css'
-// import { Link } from 'react-router-dom'
+import './MenuHeader.css'
+import { Link } from 'react-router-dom'
+
 function MenuHeader(){
     return (
         <>
             <ul className="menu-header">
-                <li><a id='link' href="#">Home</a></li>
+                <li><Link to={'/'}><a>Home</a></Link></li>
                 <li><a id='link' href="#AboutSection">About Me</a></li>
                 <li><a id='link' href="#ServiceSection">Services</a></li>
                 <li><a id='link' href="#SkillSection">Skills</a></li>
@@ -14,5 +15,4 @@ function MenuHeader(){
         </>
     )
 }
-
 export default MenuHeader

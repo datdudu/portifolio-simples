@@ -4,12 +4,12 @@ import PortfolioHome from '../components/Home/PortfolioHome/PortfolioHome.jsx'
 import ServiceHome from '../components/Home/ServiceHome/ServiceHome.jsx'
 import SkillHome from '../components/Home/SkillHome/SkillHome.jsx'
 import ContactHome from '../components/Home/ContactHome/ContactHome.jsx'
-// import { Outlet } from 'react-router-dom'
-
+import Header from './Header.jsx'
 function Home()
 {
     return(
         <>
+            <Header />
             <BannerHome />
             <AboutHome />
             <ServiceHome />

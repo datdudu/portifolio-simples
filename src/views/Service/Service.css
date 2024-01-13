@@ -1,7 +1,12 @@
-.portfolio{
+.service{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 66px;
+    padding: 81.5px 66px;
     background-color: #31065A;
+}
+
+.service .service-cards{
+    display: flex;
+    gap: 20px;
 }
