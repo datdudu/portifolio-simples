@@ -1,10 +1,12 @@
 import './Skills.css'
 import SkillTitle from '../../components/Skill/SkillTitle/SkillTitle'
 import SkillBar from '../../components/Skill/SkillBar/SkillBar'
+import HeaderRouter from '../HeaderRouter'
 
 function Skill(){
     return(
         <>
+            <HeaderRouter />
             <div className='skill'>
                 <SkillTitle />
 

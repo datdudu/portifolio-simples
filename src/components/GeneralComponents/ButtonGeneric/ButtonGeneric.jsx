@@ -1,6 +1,5 @@
 import './ButtonGeneric.css'
 import { Link } from 'react-router-dom'
-import MenuHeader from '../../Header/menu/MenuHeader'
 
 
 function ButtonGeneric({extra_style, label, link}){

@@ -1,17 +1,17 @@
 import LogoRied from '../components/Header/logo/LogoRied.jsx'
-import MenuHeader from '../components/Header/menu/MenuHeader/MenuHeader.jsx'
+import MenuHeaderRouter from '../components/Header/menu/MenuHeaderRouter/MenuHeaderRouter.jsx'
 import ButtonGeneric from '../components/GeneralComponents/ButtonGeneric/ButtonGeneric.jsx'
 import '../components/Header/Header.css'
-function Header(){
+function HeaderRouter(){
     return (
         <>  
             <div className='header'>
                 <LogoRied />
-                <MenuHeader />
+                <MenuHeaderRouter />
                 <ButtonGeneric extra_style="background-white" label="Hire me" link={'./Contact'}/>
             </div>            
         </>
     )
 }
 
-export default Header
+export default HeaderRouter

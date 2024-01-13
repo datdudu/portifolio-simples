@@ -1,10 +1,12 @@
 import './Service.css'
 import ServiceTitle from '../../components/Service/ServiceTitle/ServiceTitle'
 import ServiceCard from '../../components/Service/ServiceCard/ServiceCard'
+import HeaderRouter from '../HeaderRouter'
 
 function Service(){
     return(
         <>
+            <HeaderRouter />
             <div className='service'>
                 <ServiceTitle />
 
